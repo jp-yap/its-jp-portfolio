@@ -1,0 +1,66 @@
+@reference 'tailwindcss';
+
+.contactForm {
+    @apply border-4 border-[rgb(30,30,31)] bg-[rgb(30,30,31)] grid grid-cols-1 auto-rows-max h-max md:grid-cols-2;
+}
+
+.contactInfo {
+    @apply border-4 border-[rgb(30,30,31)] bg-[rgb(30,30,31)];
+}
+
+.contactInputCard {
+    @apply border-t-2 border-t-[rgb(90,91,92)] border-b-2 border-b-[rgb(51,51,52)] bg-[rgb(72,73,74)] p-2;
+}
+
+.contactInfoLabel {
+    @apply text-[clamp(1rem,0.2rem+0.8vw,1.5rem)];
+    font-family: var(--font-minecrafter-reg);
+    color: white;
+}
+
+.contactInfoValue {
+    @apply text-[clamp(1rem,0.2rem+0.8vw,1.5rem)];
+    font-family: var(--font-mc-nametag);
+    color: rgb(208, 209, 212);
+}
+
+.contactHeader {
+  @apply bg-[rgb(30,30,31)] text-[clamp(1.5rem,0.5rem+2vw,5rem)]  w-fit p-2 self-center;
+  font-family: var(--font-minecrafter-reg);
+  color: white;
+}
+
+.contactInputLabel {
+    @apply text-[clamp(1rem,0.2rem+0.8vw,1.5rem)];
+    font-family: var(--font-mc-nametag);
+    color: white;
+}
+
+.contactInputFieldBorder {
+    @apply border-2 border-[rgb(30,30,31)];
+}
+
+.contactInputField {
+    @apply border-t-3 border-t-[rgb(36,36,37)] bg-[rgb(49,50,51)] text-[clamp(1rem,0.2rem+0.8vw,1.5rem)] p-1;
+    font-family: var(--font-mc-nametag);
+    color: rgb(147,147,150);
+}
+
+.submitButtonBottom {
+    @apply border-b-4 border-b-[rgb(29,77,19)] active:border-b-0;
+}
+
+.formResponse {
+    @apply text-[clamp(1rem,0.2rem+0.8vw,1.5rem)] text-[#55FF55] p-1;
+    font-family: var(--font-mc-nametag);
+}
+
+.submitButton {
+    @apply border-2 border-t-[rgb(99,157,82)] border-l-[rgb(99,157,82)] border-b-[rgb(79,145,60)] border-r-[rgb(79,145,60)] bg-[rgb(60,133,39)] text-[clamp(1rem,0.2rem+0.8vw,1.5rem)] text-center py-2 px-3;
+    font-family: var(--font-mc-nametag);
+    color: white;
+}
+
+.contactInputFieldBorder:hover .submitButton, .contactInputFieldBorder:active .submitButton {
+    @apply bg-[rgb(42,100,28)];
+}

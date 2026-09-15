@@ -1,0 +1,162 @@
+@reference 'tailwindcss';
+
+.marquee {
+  animation: marquee 20s linear infinite;
+}
+
+.marquee:has(.certificateCard:hover), .marquee:has(.active) {
+  animation-play-state: paused;
+}
+
+.certificateCard:hover {
+  cursor: pointer;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animateSpin {
+  animation: spin-y 10s linear infinite, float 3s ease-in-out infinite;
+  transform-style: preserve-3d;
+}
+
+@keyframes spin-y {
+  from {
+    transform: rotateY(0deg);
+  }
+
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    translate: 0 0;
+  }
+
+  50% {
+    translate: 0 -20px;
+  }
+}
+
+.breakAnimation {
+    position: absolute;
+    inset: 0;
+
+    background-image: url("/animations/breaking.svg");
+    background-repeat: no-repeat;
+    background-size: 300% 100%;
+    cursor: url("/pickaxe.png"), auto;
+
+    animation: breakAnimation 1.5s steps(1) forwards;
+}
+
+@keyframes breakAnimation {
+    0% {
+        background-position: 0% 0;
+    }
+
+    33.333% {
+        background-position: 50% 0;
+    }
+
+    66.666% {
+        background-position: 100% 0;
+    }
+
+    100% {
+        background-position: 100% 0;
+    }
+}
+
+.video {
+  @apply bg-[rgb(72,73,74)] p-[clamp(0.3rem,0.1rem+0.5vw,1rem)] border-3 border-[rgb(90,91,92)] text-[clamp(0.8rem,0.1rem+2vw,2rem)] flex flex-col gap-2 text-[rgb(154,155,157)];
+  font-family: var(--font-minecrafter-reg);
+}
+
+.infoCardOuter {
+  @apply border-2 border-black;
+}
+
+.infoCardInner {
+  @apply border-3 bg-[rgb(198,198,198)]   border-t-white border-l-white border-r-[rgb(85,85,85)] border-b-[rgb(85,85,85)] p-4 flex flex-col gap-4 justify-center;
+}
+
+.infoCardText {
+  @apply text-[rgb(76,76,76)] text-[clamp(1.5rem,0.2rem+2vw,3rem)];
+  font-family: var(--font-minecrafter-reg);
+}
+
+.infoCardContent {
+  @apply border-3 bg-black/80 border-t-[rgb(57,57,57)] border-l-[rgb(57,57,57)] border-r-white border-b-white p-3 h-100 grid grid-rows-[minmax(0,1fr)_auto];
+}
+
+.contentText {
+  @apply text-[rgb(76,76,76)] text-[clamp(0.7rem,0.2rem+1vw,1rem)];
+  text-align: start;
+  font-family: var(--font-minecraft);
+  color: white;
+}
+
+.blockCard {
+  @apply absolute inset-0 flex items-center justify-center bg-cover bg-center bg-black/60 p-5 text-center wrap-break-word;
+}
+
+.blockLetter {
+  @apply text-[clamp(1.5rem,0.5rem+2vw,3rem)];
+  font-family: var(--font-minecrafter-alt);
+  -webkit-text-stroke: 1px black;
+}
+
+.blockContent {
+  @apply text-[clamp(0.3rem,0.2rem+2vw,2rem)];
+  font-family: var(--font-minecrafter-alt);
+  -webkit-text-stroke: 1px black;
+}
+
+.certificateCard {
+  @apply border-2 border-[rgb(85,85,85)] bg-[rgb(33,33,33)] rounded-xl;
+}
+
+.certificateTitle {
+  @apply text-[clamp(0.7rem,0.2rem+1vw,1.5rem)];
+  font-family: var(--font-mc-nametag);
+  color: rgb(252,252,0);
+}
+
+.certificateDesc {
+  @apply text-[clamp(0.7rem,0.2rem+1vw,1.5rem)];
+  font-family: var(--font-mc-nametag);
+  color: white;
+}
+
+.certificateDate {
+  @apply text-[clamp(0.7rem,0.2rem+1vw,1.5rem)];
+  font-family: var(--font-mc-nametag);
+  color: gray;
+}
+
+.techStackHeader {
+  @apply text-[clamp(1rem,0.3rem+1.8vw,3rem)];
+  font-family: var(--font-mc-nametag);
+  color: white;
+}
+
+.techStack {
+  @apply flex flex-row items-center gap-5 text-start p-2 border-t-[3px] border-l-[3px] border-r-[3px] border-b-[3px] bg-[rgb(72,73,74)] border-t-[rgb(90,91,92)] border-l-[rgb(90,91,92)] border-r-[rgb(51,51,52)] border-b-[rgb(51,51,52)];
+  @apply text-[clamp(0.7rem,0.2rem+1vw,2rem)];
+  font-family: var(--font-mc-nametag);
+  color: white;
+}
+
+.techStackImage {
+  @apply h-16 w-16 flex shrink-0 items-center p-2 justify-center bg-[rgb(36,36,36)] border-2 border-[rgb(209,209,209)];
+}

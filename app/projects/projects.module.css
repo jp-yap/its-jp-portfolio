@@ -1,0 +1,37 @@
+@reference 'tailwindcss';
+
+.optionText {
+  @apply text-[clamp(0.6rem,0.3rem+1vw,1.5rem)];
+  color: white;
+  font-family: var(--font-mc-nametag);
+  text-align: left;
+  border: solid 2px transparent;
+  padding: 1rem;
+}
+
+.button:hover {
+  @apply bg-[rgb(33,33,33)];
+  cursor: pointer;
+}
+
+.buttonSelected {
+  @apply border-2 border-[rgb(90,91,92)] bg-[rgb(33,33,33)];
+}
+
+.choiceTitle {
+  @apply text-[clamp(1rem,0.3rem+1vw,1.5rem)];
+  font-family: var(--font-minecrafter-reg);
+  color: yellow;
+}
+
+.choiceInfo {
+  @apply text-[clamp(0.4rem,0.3rem+1vw,1rem)];
+  font-family: var(--font-mc-nametag);
+  color: grey;
+}
+
+.tabParagraph {
+  @apply text-[clamp(0.6rem,0.2rem+0.8vw,1.5rem)] p-2;
+  font-family: var(--font-mc-nametag);
+  color: white;
+}

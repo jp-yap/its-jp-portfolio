@@ -1,0 +1,49 @@
+@reference 'tailwindcss';
+
+.textHeroTop {
+    @apply text-[clamp(1.5rem,0.5rem+2vw,5rem)] text-center md:text-start;
+    font-family: var(--font-minecrafter-alt);
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+.textHeroBottom {
+    @apply text-[clamp(1.5rem,0.5rem+10vw,5rem)] text-center md:text-start;
+    line-height: 1;
+    font-family: var(--font-minecrafter-alt);
+    color: rgb(199, 186, 184);
+    -webkit-text-stroke: 1px black;
+}
+
+.nameTag {
+  @apply text-[clamp(1.0rem,0.5rem+2vw,1.875rem)];
+  font-family: var(--font-mc-nametag);
+  text-align: center;
+  color: white;
+}
+
+@keyframes mcSplash {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+}
+
+.splashText {
+  @apply text-sm text-center lg:text-xl md:text-start;
+  position: absolute;
+  right: -50px;
+  bottom: 10px;
+  rotate: -18deg;
+  color: #ffff55;
+  font-family: var(--font-minecraft);
+  font-weight: 500;
+  text-shadow: 2px 2px 0px #3f3f00;
+  animation: mcSplash 1.2s ease-in-out infinite;
+
+  white-space: normal;
+  text-align: center;
+  pointer-events: none;
+}
