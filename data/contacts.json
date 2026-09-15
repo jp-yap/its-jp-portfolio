@@ -1,0 +1,30 @@
+{
+    "socials": [
+        {
+            "label": "EMAIL",
+            "contact": "jpyap0408@gmail.com"
+        },
+        {
+            "label": "CONTACT NUMBER",
+            "contact": "+639765747895"
+        },
+        {
+            "label": "DISCORD",
+            "contact": "jpyap7"
+        }
+    ],
+    "links": [
+        {
+            "icon": "facebook.svg",
+            "url": "https://www.facebook.com/jp.yap.7777/"
+        },
+        {
+            "icon": "instagram.svg",
+            "url": "https://www.instagram.com/nana.vii7/"
+        },
+        {
+            "icon": "github.svg",
+            "url": "https://github.com/jp-yap"
+        }
+    ]
+}

@@ -1,0 +1,187 @@
+{
+    "featured": [
+        {
+            "logo": "route66.webp",
+            "name": "Route66",
+            "info": "Gas Station Price Tracking Mobile App",
+            "description": {
+                "image": [
+                    "route66_desc.png"
+                ],
+                "description": "A mobile application that allows users to locate gas stations & track their prices in Cebu using interactive map markers"
+            },
+            "features": [
+                {
+                    "label": "Map and Station Detail View",
+                    "detail": {
+                        "image": [
+                            "route66_map.png"
+                        ],
+                        "description": "Users can view the map of Cebu with pins displayed marking gas stations, showing the fuel and price details of selected gas station markers."
+                    }
+                },
+                {
+                    "label": "Routing",
+                    "detail": {
+                        "image": [
+                            "route66_route.png"
+                        ],
+                        "description": "Users can navigate to selected gas stations and see the best route from their location."
+                    }
+                },
+                {
+                    "label": "Search",
+                    "detail": {
+                        "image": [
+                            "route66_search.png"
+                        ],
+                        "description": "Users can search for all gas stations by location, brand and name as well as filter their gasoline types and proximity."
+                    }
+                },
+                {
+                    "label": "Notifications",
+                    "detail": {
+                        "image": [
+                            "route66_notifications.png"
+                        ],
+                        "description": "Users are notificed when gas stations update their price on specific fuels, and can see whether the price has increased or decreased from the original price."
+                    }
+                },
+                {
+                    "label": "Chatbot Assistant",
+                    "detail": {
+                        "image": [
+                            "route66_chatbot.png"
+                        ],
+                        "description": "Users ask for suggestions for the Route 66 Assistant to help them find gas stations based on specific questions like a balance of proximity and price, cheapest diesel, etc."
+                    }
+                }
+            ],
+            "tech_used": {
+                "image": [
+                    "route66_tech_used.png"
+                ],
+                "description": "- Java\n- MongoDB\n- Node.js\n- Express.js"
+            },
+             "source_code": {
+                "image": [
+                    "cerina_store_source_code.webp"
+                ],
+                "description": "N/A"
+            }
+        },
+        {
+            "logo": "gymjams.webp",
+            "name": "Carolinian Marketplace",
+            "info": "Student Marketplace Web Application",
+            "description": {
+                "image": [
+                    "cerina_store_desc.webp"
+                ],
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            "features": [
+                {
+                    "label": "Feature 1",
+                    "detail": {
+                        "image": [
+                            "cerina_store_1.webp"
+                        ],
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    }
+                }
+            ],
+            "tech_used": {
+                "image": [
+                    "cerina_store_tech_used.webp"
+                ],
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            "source_code": {
+                "image": [
+                    "cerina_store_source_code.webp"
+                ],
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            }
+        },
+        {
+            "logo": "murderrun.png",
+            "name": "EzPa",
+            "info": "Apartment Rental Management System",
+            "description": {
+                "image": [
+                    "murderrun_desc.png"
+                ],
+                "description": "A Java project for a Minecraft minigame plugin using Nukkit API featuring team-based objectives, map selection, scoreboard, purchasable utility, game phases, and admin game setup and configuration."
+            },
+            "features": [
+                {
+                    "label": "Survivors and Murderers",
+                    "detail": {
+                        "image": [
+                            "murderrun_1-1.png",
+                            "murderrun_1-2.png"
+                        ],
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    }
+                },
+                {
+                    "label": "Map selection",
+                    "detail": {
+                        "image": [
+                            "murderrun_2-1.png",
+                            "murderrun_2-2.png"
+                        ],
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    }
+                }
+            ],
+            "tech_used": {
+                "image": [
+                    "cerina_store_tech_used.webp"
+                ],
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            "source_code": {
+                "image": [
+                    "cerina_store_source_code.webp"
+                ],
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            }
+        },
+        {
+            "logo": "minenets.webp",
+            "name": "Magana Fitness",
+            "info": "Gym Membership & Coach Appointment Management System",
+            "description": {
+                "image": [
+                    "cerina_store_desc.webp"
+                ],
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            "features": [
+                {
+                    "label": "Feature 1",
+                    "detail": {
+                        "image": [
+                            "cerina_store_1.webp"
+                        ],
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    }
+                }
+            ],
+            "tech_used": {
+                "image": [
+                    "cerina_store_tech_used.webp"
+                ],
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            "source_code": {
+                "image": [
+                    "cerina_store_source_code.webp"
+                ],
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            }
+        }
+    ]
+}

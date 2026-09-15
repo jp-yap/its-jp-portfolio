@@ -1,0 +1,136 @@
+{
+    "meetJp": [
+        {
+            "text": "Hello, I am John Paul M. Yap! I am a 3rd year Bachelor of Science in Information Technology student, studying at the University of San Carlos. \n\nI love to play video games such as &bOverwatch, Minecraft, VALORANT, Roblox, &fand more! I also love to listen to music, and my favorite genres are &aR&&aB, pop, rock, and hip-hop. &fSome of my favorite artists are &bGood Kid, INOHA, Ben&Ben, Last Dinosaurs, The Doozers and Phoneboy.\n\n&fWant to know more about me? Go to the next pages to read more about my education and journey to becoming a developer!"    
+        },
+        {
+            "text": "My Junior High School and Senior High School were at &bUniversity of San Carlos - North Campus.&f from 2018 until 2024. I had always enjoyed &aproblem solving and logical thinking &f especially with math-related subjects, however I was also interested in technology and figured that I could apply my skills in the field of %aprogramming %f. I loved dealing with difficult problems that required me to rack my brain to think of solutions for through systematic thinking.\n\nI am currently studying at &bUniversity of San Carlos&f for college so I can further develop my skills and become a capable and dependable programmer in the future."
+        }        
+    ],
+    "jpMeaning": [
+        {
+            "letter": "J",
+            "meaning": "Jack of all trades",
+            "blockImg": "diamond.webp",
+            "itemImg": "diamond_ingot.webp",
+            "color": "text-[rgb(102,246,228)]"
+        },
+        {
+            "letter": "P",
+            "meaning": "Problem-solving programmer",
+            "blockImg": "gold.webp",
+            "itemImg": "gold_ingot.webp",
+            "color": "text-[rgb(240,235,80)]"
+        }
+    ],
+    "certificates": [
+        {
+            "logo": "accenture.svg",
+            "name": "Accenture",
+            "description": "Skills to Succeed Academy",
+            "date": "May 23, 2025",
+            "certificate": [
+                "accenture.webp"
+            ]
+        },
+        {
+            "logo": "datacamp.svg",
+            "name": "DataCamp",
+            "description": "Course Completions",
+            "date": "December 20, 2025",
+            "certificate": [
+                "datacamp_1.webp",
+                "datacamp_2.webp",
+                "datacamp_3.webp",
+                "datacamp_4.webp"
+            ]
+        },
+        {
+            "logo": "cisco.svg",
+            "name": "CISCO",
+            "description": "CCNA: Switching, Routing, and Wireless Essentials",
+            "date": "January 20, 2026",
+            "certificate": [
+                "cisco.webp"
+            ]
+        }
+    ],
+    "techStacks": [
+        {
+            "header": "FRONTEND TECHNOLOGIES",
+            "path": "/frontend/",
+            "techStacks": [
+                {
+                    "icon": "react.svg",
+                    "name": "React"
+                },
+                {
+                    "icon": "nextjs.svg",
+                    "name": "Next.js"
+                },
+                {
+                    "icon": "javascript.svg",
+                    "name": "JavaScript"
+                },
+                {
+                    "icon": "tailwind.svg",
+                    "name": "Tailwind CSS"
+                }
+            ]
+        },
+        {
+            "header": "BACKEND TECHNOLOGIES",
+            "path": "/backend/",
+            "techStacks": [
+                {
+                    "icon": "nestjs.svg",
+                    "name": "NestJS"
+                },
+                {
+                    "icon": "postgresql.svg",
+                    "name": "PostgreSQL"
+                },
+                {
+                    "icon": "mongodb.svg",
+                    "name": "MongoDB"
+                },
+                {
+                    "icon": "mysql.svg",
+                    "name": "MySQL"
+                }
+            ]
+        },
+        {
+            "header": "PROGRAMMING LANGUAGES",
+            "path": "/proglang/",
+            "techStacks": [
+                {
+                    "icon": "c.svg",
+                    "name": "C"
+                },
+                {
+                    "icon": "cs.svg",
+                    "name": "C#"
+                },
+                {
+                    "icon": "java.svg",
+                    "name": "Java"
+                }
+            ]
+        },
+        {
+            "header": "DevOps Tools",
+            "path": "/devops/",
+            "techStacks": [
+                {
+                    "icon": "git.svg",
+                    "name": "Git"
+                },
+                {
+                    "icon": "docker.svg",
+                    "name": "Docker"
+                }
+            ]
+        }
+    ]
+}
