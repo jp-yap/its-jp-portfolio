@@ -10,14 +10,13 @@ export type Section = {
 }
 
 //Subsections
-const commercial_section: Section = { name: "Commercial", section_id: Constants.COMMERCIAL };
-const meaning_section: Section = { name: "Roy Meaning", section_id: Constants.MEANING };
+const meaning_section: Section = { name: "JP Meaning", section_id: Constants.MEANING };
 const certificates_section: Section = { name: "Certificates", section_id: Constants.CERTIFICATES };
 const tech_stacks_section: Section = { name: "Tech Stacks", section_id: Constants.TECH_STACKS };
 
 //Sections
 const home_section: Section = { name: "Home", section_id: Constants.HOME };
-const about_section: Section = { name: "About", section_id: Constants.ABOUT, subsections: [commercial_section, meaning_section, certificates_section, tech_stacks_section] };
+const about_section: Section = { name: "About", section_id: Constants.ABOUT, subsections: [meaning_section, certificates_section, tech_stacks_section] };
 const projects_section: Section = { name: "Projects", section_id: Constants.PROJECTS };
 const contact_section: Section = { name: "Contact", section_id: Constants.CONTACT };
 
