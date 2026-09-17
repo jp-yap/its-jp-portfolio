@@ -71,7 +71,7 @@
             }
         },
         {
-            "logo": "gymjams.webp",
+            "logo": "carolinianmarket.webp",
             "name": "Carolinian Marketplace",
             "info": "Student Marketplace Web Application",
             "description": {
@@ -105,7 +105,7 @@
             }
         },
         {
-            "logo": "murderrun.png",
+            "logo": "ezpa.png",
             "name": "EzPa",
             "info": "Apartment Rental Management System",
             "description": {
@@ -150,7 +150,7 @@
             }
         },
         {
-            "logo": "minenets.webp",
+            "logo": "maganafitness.webp",
             "name": "Magana Fitness",
             "info": "Gym Membership & Coach Appointment Management System",
             "description": {
